@@ -18,5 +18,12 @@ body {
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom right, #192a56, #40739e);
+    /* background-image: linear-gradient(to bottom right, #192a56, #40739e); */
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-footer {
+    background: #2c3e50;
 }
