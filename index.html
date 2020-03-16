@@ -13,17 +13,28 @@
 
 <body>
 
-    <div class="jumbotron jumbotron-fluid bg-title">
+    <!-- Início da visualização em telas grandes -->
+    <div class="jumbotron jumbotron-fluid bg-title d-none d-sm-block">
         <h1 class="display-4 text-title text-center">adrianoCastro</h1>
         <p class="lead text-subtitle text-center">
             <i class="mdi mdi-settings-transfer"></i> Curso de Técnico em Desenvolvimento de Sistemas
         </p>
     </div>
+    <!-- Fim da visualização em telas grandes -->
+
+    <!-- Início da visualização em Smartphone -->
+    <div class="jumbotron jumbotron-fluid bg-title-xs d-block d-sm-none">
+        <h4 class="display-4 text-title-xs text-center">adrianoCastro</h4>
+        <p class="lead text-subtitle-xs text-center">
+            <i class="mdi mdi-settings-transfer"></i> Curso de Técnico em Desenvolvimento de Sistemas
+        </p>
+    </div>
+    <!-- Fim da visualização em Smartphone -->
 
     <!-- b-navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-nav mt-n5">
-        <a class="navbar-brand" href="index.html">Integrado</a>
+        <a class="navbar-brand d-block d-sm-none" href="index.html">Integrado</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-white"></span>
         </button>
@@ -35,6 +46,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
                 </li>
+                <!-- Início do menu dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+                <!-- Fim do menu dropdown -->
             </ul>
         </div>
     </nav>
