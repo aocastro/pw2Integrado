@@ -44,3 +44,8 @@ body {
 .bg-nav {
     background-image: linear-gradient(to bottom right, #192a56, #40739e);
 }
+
+.text-span {
+    z-index: 99;
+    position: absolute;
+}
