@@ -45,6 +45,10 @@ body {
     background-image: linear-gradient(to bottom right, #192a56, #40739e);
 }
 
+.mt-n6 {
+    margin-top: -4rem;
+}
+
 .text-span {
     z-index: 99;
     position: absolute;
