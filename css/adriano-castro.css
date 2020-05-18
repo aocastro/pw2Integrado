@@ -17,24 +17,14 @@ body {
     color: #fff;
 }
 
-.text-title-xs {
-    font-family: 'Akronim', cursive;
-    font-size: 4rem;
-    color: #fff;
-}
-
-.text-subtitle-xs {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    color: #fff;
-}
-
 .bg-title {
     background: url('../img/banner.jpg') center center no-repeat;
 }
 
-.bg-title-xs {
-    background-image: linear-gradient(to bottom right, #192a56, #40739e);
+.bg-contato {
+    background: url('../img/fale-conosco.png');
+    background-size: cover;
+    background-position: center center;
 }
 
 .bg-footer {
@@ -53,3 +43,40 @@ body {
     z-index: 99;
     position: absolute;
 }
+
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (max-width: 576px) {
+    .text-title {
+        font-family: 'Akronim', cursive;
+        font-size: 4rem;
+        color: #fff;
+    }
+    .text-subtitle {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        color: #fff;
+    }
+    .bg-title {
+        background-image: linear-gradient(to bottom right, #192a56, #40739e);
+    }
+    .bg-contato {
+        background-image: linear-gradient(to bottom right, #006266, #12CBC4);
+    }
+}
+
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (max-width: 768px) {}
+
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (max-width: 992px) {}
+
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (max-width: 1200px) {}

@@ -14,7 +14,7 @@
 <body>
 
     <!-- Início da visualização do cabeçalho -->
-    <div class="jumbotron jumbotron-fluid bg-title">
+    <div class="jumbotron jumbotron-fluid bg-contato">
         <h1 class="display-4 text-title text-center">adrianoCastro</h1>
         <p class="lead text-subtitle text-center">
             <i class="mdi mdi-settings-transfer"></i> Curso de Técnico em Desenvolvimento de Sistemas
@@ -32,7 +32,7 @@
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><b>Home</b></a>
+                    <a class="nav-link text-white" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Quem Somos?</a>
@@ -49,48 +49,67 @@
                 </li>
                 <!-- Fim do menu dropdown -->
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="faleConosco.html">Fale Conosco</a>
+                    <a class="nav-link text-white" href="#"><b>Fale Conosco</b></a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Iniciando o conteúdo do nosso site -->
+
     <div class="container mt-3">
         <div class="row">
-            <div class="col-md-8 col-12">
-                <h5 class="border-bottom border-white text-white text-span ml-2 mt-2">NOTÍCIA PRINCIPAL</h5>
-                <img src="img/26-9-2018-g-web.jpg" alt="Notícia Principal" class="img-fluid">
-                <h1 class="text-center text-white mt-n5">
-                    <a href="" class="text-white">Curso de Programação WEB</a>
-                </h1>
+            <div class="col-md-6 d-none d-sm-block mt-5">
+                <img class="img-fluid" src="img/faleconosco2.png" alt="Fale Conosco">
             </div>
-            <div class="col-md-4 col-12">
-                <h6 class="border-bottom border-white text-white text-span ml-2 mt-2">NOTÍCIA</h6>
-                <img class="img-fluid" src="img/blur-1853305_1920.jpg" alt="Notícia">
-                <h3 class="text-center text-white mt-n5">Curso de CSS 3</h3>
-
-                <h6 class="border-bottom border-white text-white text-span ml-2 mt-4">NOTÍCIA</h6>
-                <img class="img-fluid mt-3" src="img/photo-maik-jonietz-535261-unsplash.jpg" alt="Notícia">
-                <h3 class="text-center text-white mt-n5">Curso de CSS 3 Avançado</h3>
-            </div>
-        </div>
-        <!-- Conteúdos do site [secundários] -->
-        <div class="row mt-3">
-            <div class="col-md-9 col-12 text-justify">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, nam at. Soluta ea perspiciatis illo explicabo magnam, fugit possimus esse deserunt dolorum, accusamus officia voluptas ipsa facere provident maxime laborum. Nesciunt cupiditate quibusdam
-                eaque incidunt quod voluptatibus minus ullam pariatur corporis earum reprehenderit consequuntur tempore similique, quia voluptatum iure dolorum placeat amet cum architecto animi dolorem molestias quasi? Sunt, inventore. Repellendus numquam
-                consequatur similique at quos deleniti ad aliquid, suscipit obcaecati nam fugit molestiae libero atque dolorem vel sapiente. Quisquam, quam. Repellendus sapiente vel delectus sit quas tempora earum atque? Suscipit ducimus, cumque quibusdam
-                omnis animi numquam totam odio dolores voluptate ad quasi doloremque, praesentium nam minus? Ex, voluptatibus consequatur recusandae officiis quam iste cupiditate, a ullam, voluptate repellat labore. Odit tenetur nam perferendis quaerat
-                asperiores laboriosam molestias eos eaque quam quia voluptatum consectetur, magnam expedita rerum repudiandae incidunt praesentium laborum nemo, ea excepturi non culpa omnis modi dolore. Est.
-            </div>
-            <div class="col-md-3 col-12">
-                <div id="cont_371c4b9623f711164226b7b71d78eb78">
-                    <script type="text/javascript" async src="https://www.tempo.com/wid_loader/371c4b9623f711164226b7b71d78eb78"></script>
-                </div>
+            <div class=" col-md-6 col-12">
+                <h1 class="text-center text-primary">Fale Conosco</h1>
+                <form action="" class="mt-2">
+                    <div class="form-group">
+                        <label>Nome completo</label>
+                        <input type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" name="" id="" class="form-control">
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 col-12">
+                            <label>Telefone</label>
+                            <input type="tel" name="" id="" class="form-control">
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <label>Celular</label>
+                            <input type="tel" name="" id="" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Assunto</label>
+                        <select name="" id="" class="form-control">
+                            <option value="">Selecione o seu assunto...</option>
+                            <option value="">Ajuda</option>
+                            <option value="">Sugestões</option>
+                            <option value="">Críticas</option>
+                            <option value="">Elogios</option>
+                            <option value="">Reclamação</option>
+                            <option value="">Outros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea name="" id="" class="form-control" cols="20" rows="10"></textarea>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <div class="col-md-4 col-6">
+                            <button class="btn btn-outline-primary btn-block"><i class="mdi mdi-mail"></i> Enviar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+
+
     <!-- Fim do conteúdo do nosso site -->
 
     <!-- Criando um footer -->
@@ -105,12 +124,10 @@
             <div class="col-md-3 col-12 text-white">
                 <p>Mapa do site</p>
                 <ul>
-                    <li><b>Home</b></li>
+                    <li><a href="index.html">Home</a></li>
                     <li>Quem Somos</li>
                     <li>Cursos</li>
-                    <li>
-                        <a href="faleConosco.html"></a>Fale Conosco</a>
-                    </li>
+                    <li><b>Fale Conosco</b></li>
                 </ul>
             </div>
             <div class="col-md-3 col-12 text-white">
