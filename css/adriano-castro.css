@@ -27,6 +27,12 @@ body {
     background-position: center center;
 }
 
+.bg-sobre {
+    background: url('../img/sobre.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
 .bg-footer {
     background: #2c3e50;
 }
@@ -42,6 +48,22 @@ body {
 .text-span {
     z-index: 99;
     position: absolute;
+}
+
+.icon-sobre {
+    font-size: 5rem;
+}
+
+.year {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.img-banner {
+    height: 30rem;
+    min-height: 30rem;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 
@@ -63,6 +85,9 @@ body {
     }
     .bg-contato {
         background-image: linear-gradient(to bottom right, #006266, #12CBC4);
+    }
+    .bg-sobre {
+        background-image: linear-gradient(to bottom right, #6F1E51, #B53471);
     }
 }
 
