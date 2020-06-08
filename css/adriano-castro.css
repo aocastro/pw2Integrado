@@ -66,6 +66,13 @@ body {
     object-fit: cover;
 }
 
+.img-card {
+    height: 10rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    object-fit: cover;
+}
+
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 
